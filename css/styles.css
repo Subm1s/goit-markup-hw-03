@@ -34,6 +34,7 @@ body {
   font-size: 26px;
   line-height: 31px;
   text-decoration: none;
+  margin-left: 215px;
 }
 .logo .web {
   color: var(--logo-web-color);
@@ -44,12 +45,17 @@ body {
 .logo .studio-light {
   color: var(--white-color-text);
 }
+.site-nav {
+  display: inline-flex;
+  margin-left: 453px;
+}
 .site-nav .link {
   color: var(--title-text-color);
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
   line-height: 1.14;
+  margin-right: 10px;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -63,6 +69,7 @@ body {
 /* Hero */
 .hero {
   background-color: var(--alternative-bgc);
+  height: 600px;
 }
 .hero > .hero-title {
   color: var(--white-color-text);
@@ -73,6 +80,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   text-align: center;
+  vertical-align: center;
 }
 .hero .button {
   background-color: var(--accent-text-color);
@@ -83,6 +91,8 @@ body {
   font-size: 16px;
   line-height: 1.88;
   cursor: pointer;
+  border: none;
+  text-align: center;
 }
 /* Section */
 .section .section-title {
