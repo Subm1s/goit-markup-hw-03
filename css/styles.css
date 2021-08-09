@@ -15,17 +15,23 @@
   --secondary-bcg: #f5f4fa;
 }
 body {
-  font-family: roboto, sans-serif;
+  font-family: Roboto, sans-serif;
   color: var(--primary-text-color);
   letter-spacing: 0.03em;
   font-size: 14px;
-  margin: 0;
 }
 .list {
   list-style: none;
 }
 .link {
   text-decoration: none;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding: 15px;
+  border: 1px solid red;
 }
 
 /* Site nav */
@@ -36,8 +42,6 @@ body {
   font-size: 26px;
   line-height: 31px;
   text-decoration: none;
-  margin-left: 215px;
-  margin-top: 24px;
 }
 .logo .web {
   color: var(--logo-web-color);
@@ -48,17 +52,12 @@ body {
 .logo .studio-light {
   color: var(--white-color-text);
 }
-.site-nav {
-  display: inline-flex;
-  margin-left: 93px;
-}
 .site-nav .link {
   color: var(--title-text-color);
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
   line-height: 1.14;
-  margin-right: 10px;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -66,24 +65,20 @@ body {
 }
 .site-nav .link.current {
   color: var(--accent-text-color);
-  width: 1600px;
-  height: 600px;
 }
 /* Hero */
 .hero {
   background-color: var(--alternative-bgc);
-  height: 600px;
 }
-.hero > .hero-title {
+.hero .hero-title {
   color: var(--white-color-text);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   text-align: center;
-  vertical-align: center;
+  width: 696px;
   display: inline-block;
 }
 .hero .button {
@@ -192,17 +187,4 @@ body {
   line-height: 1.88;
   font-weight: 400;
   color: var(--primary-text-color);
-}
-.contact-header {
-  display: inline-flexbox;
-  margin: 32px 215px 252px;
-}
-.conteiner {
-  display: inline-flex;
-  width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.differ {
-  width: 270px;
 }
