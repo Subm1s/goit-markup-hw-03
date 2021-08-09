@@ -30,13 +30,11 @@
         </div>
     </header> 
     <main>
-        <section class="hero">
-            <div class="container">
+        <section class="hero container">
                 <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
                 <button type="button" class="button">Заказать услугу</button>
-            </div>
         </section>
-        <section class="section">
+        <section class="section container without">
             <h2 class="section-title-hide">Особенности</h2>
             <ul class="list">
                 <li>
@@ -61,53 +59,64 @@
                 </li>
             </ul>
         </section>
-        <section class="section">
+        <section class="section container">
             <h2 class="section-title">Чем мы занимаемся</h2>
             <ul class="list">
-                <li><img src="./images/box1.jpg" alt="разработка" width="370"></li>
-                <li><img src="./images/box2.jpg" alt="адаптация" width="370"></li>
-                <li><img src="./images/box3.jpg" alt="дизайн" width="370"></li>
+                <li class="features-img"><img src="./images/box1.jpg" alt="разработка" width="370"></li>
+                <li class="features-img"><img src="./images/box2.jpg" alt="адаптация" width="370"></li>
+                <li class="features-img"><img src="./images/box3.jpg" alt="дизайн" width="370"></li>
             </ul>
         </section>
         <section class="section our-team">
-            <h2 class="section-title">Наша команда</h2>
-            <ul class="list">
-                <li>
-                    <img src="./images/demyanenko.jpg" alt="Игорь Демяненко" width="270">
-                    <h3 class="team-name">Игорь Демяненко</h3>
-                    <p class="position">Product Designer</p>
-                </li>
-                <li>
-                    <img src="./images/repina.jpg" alt="Ольга Репина" width="270">
-                    <h3 class="team-name">Ольга Репина</h3>
-                    <p class="position">Frontend Developer</p>
-                </li>
-                <li>
-                    <img src="./images/tarasov.jpg" alt="Николай Тарасов" width="270">
-                    <h3 class="team-name">Николай Тарасов</h3>
-                    <p class="position">Marketing</p>
-                </li>
-                <li>
-                    <img src="./images/ermakov.jpg" alt="Михаил Ермаков" width="270">
-                    <h3 class="team-name">Михаил Ермаков</h3>
-                    <p class="position">UI Designed</p>
-                </li>
-            </ul>
+            <div class="container">
+                <h2 class="section-title">Наша команда</h2>
+                <ul class="list">
+                    <li>
+                        <div class="worker-box">
+                            <img src="./images/demyanenko.jpg" alt="Игорь Демяненко" width="270">
+                            <h3 class="team-name">Игорь Демяненко</h3>
+                            <p class="position">Product Designer</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="worker-box">
+                            <img src="./images/repina.jpg" alt="Ольга Репина" width="270">
+                            <h3 class="team-name">Ольга Репина</h3>
+                            <p class="position">Frontend Developer</p>
+                        </div>    
+                    </li>
+                    <li>
+                        <div class="worker-box">
+                            <img src="./images/tarasov.jpg" alt="Николай Тарасов" width="270">
+                            <h3 class="team-name">Николай Тарасов</h3>
+                            <p class="position">Marketing</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="worker-box"><img src="./images/ermakov.jpg" alt="Михаил Ермаков" width="270">
+                        <h3 class="team-name">Михаил Ермаков</h3>
+                        <p class="position">UI Designed</p>
+                    </div>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
-    <footer class="footer">
-        <a href="index.html" class="logo link"><span class="web">Web</span><span class="studio-light">Studio</span></a>
-        <address class="adress">
-            г. Киев, пр-т Леси Украинки, 26
-        </address>
-        <ul class="contact-footer list">
-            <li>
-                <a href="mailto:info@example.com" class="mail link">info@example.com</a>
-            </li>
-            <li>
-                <a href="tell:+380991111111" class="tell link">+38 099 111 11 11</a>
-            </li>
-        </ul>
+    <footer class="footer ">
+        <div class="container">
+            <a href="index.html" class="logo link"><span class="web">Web</span><span class="studio-light">Studio</span></a>
+            <address class="adress">
+                г. Киев, пр-т Леси Украинки, 26
+            </address>
+            <ul class="contact-footer list">
+                <li>
+                    <a href="mailto:info@example.com" class="mail link">info@example.com</a>
+                </li>
+                <li>
+                    <a href="tell:+380991111111" class="tell link">+38 099 111 11 11</a>
+                </li>
+            </ul>
+        </div>
     </footer>
 </body>
 
