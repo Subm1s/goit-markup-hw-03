@@ -19,6 +19,7 @@ body {
   color: var(--primary-text-color);
   letter-spacing: 0.03em;
   font-size: 14px;
+  margin: 0;
 }
 .list {
   list-style: none;
@@ -29,12 +30,14 @@ body {
 
 /* Site nav */
 .logo {
+  display: inline-block;
   font-family: raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   text-decoration: none;
   margin-left: 215px;
+  margin-top: 24px;
 }
 .logo .web {
   color: var(--logo-web-color);
@@ -47,7 +50,7 @@ body {
 }
 .site-nav {
   display: inline-flex;
-  margin-left: 453px;
+  margin-left: 93px;
 }
 .site-nav .link {
   color: var(--title-text-color);
@@ -81,8 +84,10 @@ body {
   text-transform: uppercase;
   text-align: center;
   vertical-align: center;
+  display: inline-block;
 }
 .hero .button {
+  display: inline-block;
   background-color: var(--accent-text-color);
   color: var(--white-color-text);
   font-family: inherit;
@@ -91,8 +96,12 @@ body {
   font-size: 16px;
   line-height: 1.88;
   cursor: pointer;
-  border: none;
   text-align: center;
+  border-radius: 3px;
+  border: none;
+  width: 200px;
+  height: 50px;
+  box-sizing: border-box;
 }
 /* Section */
 .section .section-title {
@@ -183,4 +192,17 @@ body {
   line-height: 1.88;
   font-weight: 400;
   color: var(--primary-text-color);
+}
+.contact-header {
+  display: inline-flexbox;
+  margin: 32px 215px 252px;
+}
+.conteiner {
+  display: inline-flex;
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.differ {
+  width: 270px;
 }
