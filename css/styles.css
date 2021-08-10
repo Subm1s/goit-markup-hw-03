@@ -78,6 +78,7 @@ body {
   margin-top: 0px;
   margin-bottom: 0px;
   text-align: center;
+  height: 600px;
 }
 .hero .hero-title {
   color: var(--white-color-text);
@@ -91,8 +92,8 @@ body {
   margin-bottom: 30px;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 200px;
-  padding-top: 0;
+  padding-top: 200px;
+  margin-top: 0px;
 }
 .hero .button {
   background-color: var(--accent-text-color);
@@ -198,6 +199,12 @@ body {
   color: var(--primary-text-color);
   line-height: 1.7;
 }
+.contact-footer .mail {
+  margin-bottom: 9px;
+}
+.contact-footer .tell {
+  padding-bottom: 0px;
+}
 .contact-footer .mail:hover,
 .contact-footer .tell:hover,
 .contact-footer .mail:focus,
@@ -209,6 +216,10 @@ body {
   font-style: normal;
   line-height: 1.7;
   font-weight: 400;
+  margin-bottom: 9px;
+}
+.contact-footer {
+  padding-bottom: 60px;
 }
 /* Portfolio */
 .filter .button {
@@ -220,6 +231,9 @@ body {
   text-align: center;
   font-family: inherit;
   cursor: pointer;
+  padding: 6px 22px;
+  border-radius: 3px;
+  border: none;
 }
 .filter .button:focus,
 .filter .button:hover {
@@ -231,10 +245,24 @@ body {
   font-size: 18px;
   line-height: 2;
   font-weight: 700;
+  margin: 0px;
+  margin-bottom: 4px;
 }
 .examples .description {
   font-size: 16px;
   line-height: 1.88;
   font-weight: 400;
   color: var(--primary-text-color);
+  margin: 0px;
+}
+.examples-item {
+  border: 1px solid #eeeeee;
+  width: 370px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+.abra {
+  margin: 20px 24px;
+  width: 322px;
+  height: 70px;
 }
