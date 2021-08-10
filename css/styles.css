@@ -46,6 +46,9 @@ body {
   line-height: 31px;
   text-decoration: none;
 }
+.header .logo {
+  padding-top: 24px;
+}
 .logo .web {
   color: var(--logo-web-color);
 }
@@ -110,6 +113,10 @@ body {
   margin-left: auto;
   margin-bottom: 200px;
 }
+.hero .button:hover,
+.hero .button:focus {
+  background-color: #188ce8;
+}
 /* Section */
 .section .section-title {
   font-weight: 700;
@@ -125,6 +132,7 @@ body {
   font-weight: 700;
   line-height: 1.14;
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
 .without {
   padding-top: 0px;
@@ -168,6 +176,10 @@ body {
 }
 .footer {
   background-color: var(--alternative-bgc);
+}
+.footer .logo {
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
 .contact-header .mail,
 .contact-header .tell {
