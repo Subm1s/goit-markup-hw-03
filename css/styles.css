@@ -40,7 +40,6 @@ body {
 }
 /* Site nav */
 .header {
-  border-bottom: 1px solid #ececec;
   height: 80px;
 }
 .header-cont {
@@ -287,7 +286,6 @@ body {
   cursor: pointer;
   padding: 6px 22px;
   border-radius: 3px;
-  border: none;
 }
 .filter .button:focus,
 .filter .button:hover {
@@ -323,7 +321,12 @@ body {
 .filter {
   display: flex;
   justify-content: center;
+  padding-top: 94px;
 }
 .filter .button:not(last-child) {
   margin-right: 8px;
+}
+.mail-portfolio {
+  border-top: 1px solid #ececec;
+  padding-top: 94px;
 }
