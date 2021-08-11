@@ -20,6 +20,12 @@ body {
   letter-spacing: 0.03em;
   font-size: 14px;
 }
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
 .list {
   list-style: none;
   padding: 0;
@@ -109,9 +115,8 @@ body {
   text-transform: uppercase;
   text-align: center;
   width: 696px;
+  margin: 0 auto;
   margin-bottom: 30px;
-  margin-right: auto;
-  margin-left: auto;
   padding-top: 200px;
 }
 .hero .button {
@@ -326,7 +331,6 @@ body {
 .filter .button:not(last-child) {
   margin-right: 8px;
 }
-.mail-portfolio {
+.main-portfolio {
   border-top: 1px solid #ececec;
-  padding-top: 94px;
 }
