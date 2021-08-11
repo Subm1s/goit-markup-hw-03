@@ -291,6 +291,7 @@ p {
   cursor: pointer;
   padding: 6px 22px;
   border-radius: 3px;
+  border-style: none;
 }
 .filter .button:focus,
 .filter .button:hover {
