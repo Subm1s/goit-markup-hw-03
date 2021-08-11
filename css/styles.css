@@ -19,6 +19,7 @@ body {
   color: var(--primary-text-color);
   letter-spacing: 0.03em;
   font-size: 14px;
+  background-color: red;
 }
 h1,
 h2,
