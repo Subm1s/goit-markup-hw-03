@@ -225,6 +225,11 @@ body {
   padding-bottom: 60px;
 }
 /* Portfolio */
+.examples-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 .filter .button {
   background-color: var(--secondary-bcg);
   color: var(--logo-studio-color);
@@ -262,10 +267,13 @@ body {
   border: 1px solid #eeeeee;
   width: 370px;
   margin-bottom: 30px;
-  margin-right: 30px;
+  margin-right: 0px;
 }
 .abra {
   margin: 20px 24px;
   width: 322px;
   height: 70px;
+}
+.filter {
+  display: flex;
 }
