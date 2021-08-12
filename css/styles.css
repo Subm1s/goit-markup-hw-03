@@ -4,6 +4,7 @@
 /* Цвет вторичного фона #f5f4fa */
 /* Цвет белого текста #ffffff */
 /* Фон футера и героя #2f303a*/
+/* Footer contact color */
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
@@ -13,6 +14,7 @@
   --white-color-text: #ffffff;
   --alternative-bgc: #2f303a;
   --secondary-bcg: #f5f4fa;
+  --footer-contact: rgba(255, 255, 255, 0.6);
 }
 .link {
   text-decoration: none;
@@ -202,9 +204,6 @@ p {
   flex-direction: row;
   justify-content: center;
 }
-.features-img {
-  margin-bottom: 94px;
-}
 .sect .description {
   font-weight: 400;
   line-height: 1.7;
@@ -222,7 +221,6 @@ p {
 }
 .our-team .section-title {
   display: flex;
-  padding-top: 94px;
   margin-bottom: 50px;
   justify-content: center;
 }
@@ -276,9 +274,11 @@ p {
 }
 .contact-footer .mail {
   margin-bottom: 9px;
+  color: var(--footer-contact);
 }
 .contact-footer .tell {
   padding-bottom: 0px;
+  color: var(--footer-contact);
 }
 .footer-adress {
   margin-bottom: 9px;
@@ -299,7 +299,12 @@ p {
 .examples-list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -30px;
+}
+.examples-item:nth-child(3n) {
+  margin-right: 0px;
+}
+.examples-item:nth-child(-n + 3) {
+  margin-bottom: 30px;
 }
 .filter .button {
   background-color: var(--secondary-bcg);
@@ -337,13 +342,7 @@ p {
 .examples-item {
   border: 1px solid #eeeeee;
   width: 370px;
-  margin-bottom: 30px;
   margin-right: 30px;
-}
-.examples-item:not(:nth-last-child(-n + 3)) {
-  margin-bottom: 30px;
-}
-.examples-item:not(:nth-child(3n + 0)) {
 }
 .item-description {
   margin: 20px 24px;
