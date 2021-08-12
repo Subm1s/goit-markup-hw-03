@@ -181,9 +181,9 @@ p {
   margin-bottom: 10px;
   text-transform: uppercase;
 }
-.features {
-  padding-top: 0px;
-  padding-bottom: 94px;
+.section.features {
+  padding-top: 94px;
+  padding-bottom: 0px;
 }
 .features .list-item {
   width: 270px;
@@ -301,7 +301,7 @@ p {
 .examples-item:nth-child(3n) {
   margin-right: 0px;
 }
-.examples-item:nth-child(-n + 3) {
+.examples-item:nth-last-child(n + 4) {
   margin-bottom: 30px;
 }
 .filter .button {
