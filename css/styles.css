@@ -43,11 +43,8 @@ p {
   padding-right: 15px;
   padding-left: 15px;
 }
-.img {
+img {
   display: block;
-  border: 0px;
-  margin: 0px;
-  padding: 0;
 }
 .visually-hidden {
   position: absolute;
@@ -349,6 +346,7 @@ p {
   border-right: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
+  border-top: 0px;
   padding-top: 20px;
   padding-bottom: 20px;
   width: 370px;
