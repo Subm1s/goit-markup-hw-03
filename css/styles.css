@@ -213,7 +213,6 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-bottom: 94px;
 }
 .our-team {
   background-color: var(--secondary-bcg);
