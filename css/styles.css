@@ -355,6 +355,9 @@ p {
   padding-left: 24px;
   padding-right: 24px;
 }
+.item-description .title {
+  margin-bottom: 4px;
+}
 .filter {
   display: flex;
   justify-content: center;
