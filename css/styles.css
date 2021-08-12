@@ -85,8 +85,6 @@ img {
 .nav {
   display: flex;
   align-items: center;
-  padding-bottom: 24px;
-  padding-top: 24px;
 }
 .site-nav .link {
   color: var(--title-text-color);
@@ -94,6 +92,9 @@ img {
   line-height: 16px;
   letter-spacing: 0.02em;
   line-height: 1.14;
+  padding-bottom: 32px;
+  padding-top: 32px;
+  display: block;
 }
 .site-nav > li:not(:last-child) {
   margin-right: 50px;
@@ -110,8 +111,6 @@ img {
   display: flex;
   text-align: center;
   margin-left: auto;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -122,6 +121,12 @@ img {
 }
 .contact-header .tell {
   margin-left: 50px;
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
+.contact-header .mail {
+  padding-bottom: 32px;
+  padding-top: 32px;
 }
 /* Hero */
 .hero {
@@ -189,23 +194,29 @@ img {
 }
 .features .list-item {
   width: 270px;
+  margin-right: 30px;
+}
+.features .list-item:nth-child(4n) {
+  margin-right: 0;
 }
 .features .list {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
-.bussines .list {
+
+.busines .list {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
-.bussines .section-title {
+.busines .section-title {
   display: flex;
-  flex-direction: row;
   justify-content: center;
 }
-.sect .description {
+.features-img {
+  margin-right: 30px;
+}
+.features-img:nth-child(3n) {
+  margin-right: 0px;
+}
+.section .description {
   font-weight: 400;
   line-height: 1.7;
   margin-top: 0px;
@@ -213,8 +224,6 @@ img {
 }
 .our-team .list {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
 .our-team {
   background-color: var(--secondary-bcg);
@@ -229,14 +238,12 @@ img {
   font-size: 16px;
   line-height: 1.19;
   font-weight: 500;
-  margin-top: 30px;
   margin-bottom: 10px;
 }
 .section .position {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.19;
-  padding-bottom: 30px;
   margin: 0px;
 }
 .worker-box {
@@ -246,6 +253,14 @@ img {
   border-radius: 1px;
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
+  margin-right: 30px;
+}
+.worker-box:nth-child(4n) {
+  margin-right: 0px;
+}
+.worker-description {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .footer {
   background-color: var(--alternative-bgc);
@@ -273,8 +288,13 @@ img {
   line-height: 1.7;
 }
 .contact-footer .mail {
-  margin-bottom: 9px;
   color: var(--footer-contact);
+}
+.mail-list {
+  margin-bottom: 4px;
+}
+.adress-list {
+  margin-bottom: 9px;
 }
 .contact-footer .tell {
   padding-bottom: 0px;
@@ -363,8 +383,11 @@ img {
   justify-content: center;
   margin-bottom: 50px;
 }
-.filter .button:nth-last-child(1) {
+.button-list {
   margin-right: 8px;
+}
+.button-list:last-child {
+  margin-right: 0;
 }
 .section {
   padding-top: 94px;
