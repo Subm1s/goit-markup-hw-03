@@ -45,6 +45,9 @@ p {
 }
 .img {
   display: block;
+  border: 0px;
+  margin: 0px;
+  padding: 0;
 }
 .visually-hidden {
   position: absolute;
@@ -342,9 +345,15 @@ p {
   margin-right: 30px;
 }
 .item-description {
-  margin: 20px 24px;
   width: 322px;
-  border: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 370px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 .filter {
   display: flex;
