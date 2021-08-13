@@ -119,12 +119,12 @@ img {
 .site-nav .link.current {
   color: var(--accent-text-color);
 }
-.contact-header .tell {
+.contact-header .tell-link {
   margin-left: 50px;
   padding-bottom: 32px;
   padding-top: 32px;
 }
-.contact-header .mail {
+.contact-header .mail-link {
   padding-bottom: 32px;
   padding-top: 32px;
 }
@@ -212,6 +212,7 @@ img {
 }
 .features-img {
   margin-right: 30px;
+  width: 370px;
 }
 .features-img:nth-child(3n) {
   margin-right: 0px;
@@ -344,7 +345,7 @@ img {
   color: var(--white-color-text);
   background-color: var(--accent-text-color);
 }
-.examples .title {
+.examples .title-examples {
   color: var(--logo-studio-color);
   font-size: 18px;
   line-height: 2;
